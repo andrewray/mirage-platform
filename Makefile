@@ -37,4 +37,4 @@ xen-%:
 	$(MAKE) OS=xen PREFIX=$(PREFIX) $*
 
 kfreebsd-%:
-	$(MAKE) OS=xen PREFIX=$(PREFIX) $*
+	$(MAKE) OS=kfreebsd PREFIX=$(PREFIX) $*
