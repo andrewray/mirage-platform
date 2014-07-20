@@ -23,7 +23,7 @@
 
 /* Standard definitions */
 #if defined(__FreeBSD__) && defined(_KERNEL)
-#define OCAML_OS_TYPE   "kFreeBSD"
+#define OCAML_OS_TYPE   "Unix"
 
 #include <sys/types.h>
 #include <sys/libkern.h>
